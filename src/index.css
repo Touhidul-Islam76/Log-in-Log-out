@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #111;
+}
+
+@layer utilities {
+    .scrollbar-hidden::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hidden {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+.login{
+  background-image: url(https://st.depositphotos.com/2727515/60959/i/450/depositphotos_609596384-stock-photo-milky-way-stars-ursa-major.jpg );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}  
+
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+ 
+  font-weight: bold;
+}
